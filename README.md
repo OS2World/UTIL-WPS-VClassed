@@ -17,4 +17,4 @@ AUTHORS
 
 LINKS
 ===============
-* 
+* http://www.os2world.com/wiki/index.php/VClassed
