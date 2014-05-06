@@ -1,0 +1,31 @@
+                          Upload Information Template for Hobbes.nmsu.edu
+                          ===============================================
+
+        Archive Filename: VCLASSED15.ZIP
+       Short Description: An easy to use and complete WPS' classes manager
+        Long Description: A small PM based utility to easily manage WPS 
+                          classes, can register/deregister wps classes.
+                          It can even create instances of WPS Classes.
+                          Now available with full source code.
+
+      Proposed directory
+           for placement: /pub/os2/util/wps
+
+               Your name: Daniele Vistalli
+           Email address: dvistalli@tin.it
+    Program contact name: (same)
+   Program contact email: (same)
+             Program URL: http://www.quasarbbs.com/Virusface
+
+      Would you like the
+   contact email address
+    included in listings? yes
+
+Operating System/Version: OS/2 Warp (3.0 and 4.0)
+ Additional requirements: None
+
+                Replaces: vclsed10.zip
+
+
+
+

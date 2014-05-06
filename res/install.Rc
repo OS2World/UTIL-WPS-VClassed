@@ -1,0 +1,45 @@
+/* OS/2 Warp 3.0 Resource Script File - Created by Universal Resource Editor */
+
+#define INCL_WINSYS
+#define INCL_WINBIDI
+#define INCL_WINSTDDLGS
+#define INCL_WINSTDSPIN
+#define INCL_NLS
+#define INCL_SW
+
+#include <os2.h>
+
+#include "../install.h"
+
+ICON        ICN_INST "res/install.ICO"
+DLGTEMPLATE DLG_INSTALLVCLASSED MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG "Install VClassed 1.6", DLG_INSTALLVCLASSED, 90, 108, 255, 98,
+                FS_NOBYTEALIGN | FS_DLGBORDER | WS_CLIPSIBLINGS | WS_SAVEBITS |
+                WS_VISIBLE, FCF_TITLEBAR | FCF_SYSMENU | FCF_TASKLIST
+    PRESPARAMS PP_FONTNAMESIZE, "9.WarpSans"
+    PRESPARAMS PP_USER, "10.System Proportional"
+    BEGIN
+        CONTROL "Installation options  :", 258, 5, 65, 245, 30, WC_STATIC,
+                                            SS_GROUPBOX | WS_VISIBLE
+        CONTROL "Path :",              263, 10, 78, 20, 8, WC_STATIC, SS_TEXT |
+                                            DT_LEFT | DT_VCENTER | WS_VISIBLE
+        CONTROL "",                    IF_DEST, 33, 79, 210, 6, WC_ENTRYFIELD,
+                                            ES_MARGIN | WS_TABSTOP | WS_VISIBLE
+                CTLDATA 8, 255, 0, 0
+        CONTROL "Create VClassed folder on desktop", CB_CREATEOBJECTS,
+                                        9, 68, 109, 8, WC_BUTTON,
+                                            BS_AUTOCHECKBOX | WS_TABSTOP |
+                                            WS_VISIBLE
+        CONTROL "~Install ...",        BTN_INSTALL, 6, 4, 37, 12, WC_BUTTON,
+                                            BS_PUSHBUTTON | BS_DEFAULT |
+                                            WS_TABSTOP | WS_VISIBLE
+        CONTROL "~Exit",               BTN_EXIT, 46, 4, 37, 12, WC_BUTTON,
+                                            BS_PUSHBUTTON | WS_TABSTOP |
+                                            WS_VISIBLE
+        CONTROL "",                    LB_MSGLIST, 5, 19, 245, 44, WC_LISTBOX,
+                                            LS_NOADJUSTPOS | LS_HORZSCROLL |
+                                            WS_VISIBLE
+    END
+END
+

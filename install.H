@@ -1,0 +1,8 @@
+#define DLG_INSTALLVCLASSED 256
+#define ICN_INST 1
+#define LB_MSGLIST 262
+#define IF_DEST 259
+#define BTN_BROWSE 260
+#define BTN_INSTALL 257
+#define BTN_EXIT 261
+#define CB_CREATEOBJECTS 264
